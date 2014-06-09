@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <title>Utako Ueda</title>
 
@@ -13,21 +14,17 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
 
-    <script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/modernizr.custom.js"></script>
-	
-
-	
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
 
@@ -36,128 +33,275 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Utako Ueda</a></h1>
-			<i class="icon-remove menu-close"></i>
+			<h1 class="logo"><a href="index.html#home">DSGN NYC</a></h1>
+			<i class="fa fa-times menu-close"></i>
 			<a href="#home" class="smoothScroll">Home</a>
 			<a href="#about" class="smoothScroll">About</a>
 			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#services" class="smoothScroll">Services</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
-			<a href="#"><i class="icon-facebook"></i></a>
-			<a href="#"><i class="icon-twitter"></i></a>
-			<a href="#"><i class="icon-dribbble"></i></a>
-			<a href="#"><i class="icon-envelope"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
 		</div>
 		
 		<!-- Menu button -->
-		<div id="menuToggle"><i class="icon-reorder"></i></div>
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
 
-
-	
-	<!-- ========== HEADER SECTION ========== -->
 	<section id="home" name="home"></section>
 	<div id="headerwrap">
 		<div class="container">
-      <!-- <div class="logo">
-        <img src="assets/img/logo.png">
-      </div> -->
-			<br>
 			<div class="row">
-				<h1>UTAKO UEDA</h1>
-				<br>
-				<h3>Hello, world. I'm a Ruby on Rails software engineer for hire based in San Francisco, CA.</h3>
-				<br>
-				<br>
-				<div class="col-lg-6 col-lg-offset-3">
+				<div class="col-md-6 col-md-offset-3">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2>UTAKO UEDA</h2>
+          <h3>Web Developer</h3>
 				</div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /headerwrap -->
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/headerwrap -->
 	
-	
-	
-	<!-- ========== ABOUT SECTION ========== -->
 	<section id="about" name="about"></section>
-	<div id="f">
+	<div id="aboutwrap">
 		<div class="container">
 			<div class="row">
-				<h3>ABOUT ME</h3>
-				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-				
-				<!-- INTRO INFORMATIO-->
-				<div class="col-lg-6 col-lg-offset-3">
-					<p>I'm a recovering physicist based in San Francisco, CA.</p>
-          <p>Back in 1993, my brother introduced me to telnet chat servers. Soon after, I started making my own basic HTML websites dedicated to the sorts of things 13-year-old girls like (Smashing Pumpkins, pictures of horses and MS Paint drawings).</p>
-          <p>Since then, my specialty has turned towards web design using Ruby on Rails, Javascript and responsive HTML and CSS.</p>
-					<p>You can find my code on <a href="http://github.com/utako">Github</a>. I also <a href="http://twitter.com/utakoueda">tweet</a> on occasion.</p>
-					<p>I'm available for hire. Take a look at my <a href="assets/resume.pdf">resume</a>.</p>
-					<p><button type="button" class="btn btn-warning">I HAVE A JOB OPENING</button></p>
-				</div>								
-			</div>
-		</div><!-- /container -->
-	</div><!-- /f -->
-	
+				<div class="col-lg-4 name">
+					<img class="img-responsive" src="assets/img/pic.jpg">
+					<p>Utako Ueda</p>
 
-	<!-- ========== CAROUSEL SECTION ========== -->	
-	<section id="portfolio" name="portfolio"></section>
-	<div id="f">
-		<div class="container">
-			<div class="row centered">
-				<h3>SOME PROJECTS</h3>
-				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-				
-				<div class="col-lg-6 col-lg-offset-3">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner">
-							<div class="item active centered">
-								<img class="img-responsive" src="assets/img/c1.png" alt="">
-							</div>
-							<div class="item centered">
-								<img class="img-responsive" src="assets/img/c2.png" alt="">
-							</div>
-							<div class="item centered">
-								<img class="img-responsive" src="assets/img/c3.png" alt="">
-							</div>
-						</div>
-						<br>
-						<br>
-						<ol class="carousel-indicators">
-						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						</ol>
+				</div><! --/col-lg-4-->
+				<div class="col-lg-8 name-desc">
+					<h2>About Me</h2>
+          <br>
+					<div>----------------</div>
+					<br>
+					<div class="col-md-12">
+  					<p>I'm a <strong>recovering physicist</strong> based in <strong>San Francisco, CA</strong>.</p>
+            <p>Back in 1993, my brother introduced me to telnet chat servers. Soon after, I started making my own basic HTML websites dedicated to the sorts of things 13-year-old girls like (Smashing Pumpkins, pictures of horses and MS Paint drawings). Since then, my specialty has turned towards web design using <strong>Ruby on Rails</strong>, <strong>Javascript</strong> and responsive <strong>HTML</strong> and <strong>CSS</strong>.</p>
+            <p>My personal interests include <strong>hiking</strong>, riding <strong>bicycles</strong>, playing <strong>music</strong>, <strong>painting</strong>, and drinking bourbon.</p>
+  					<p>You can find my code on <strong><a href="http://github.com/utako">Github</a></strong>. I'm also  on <strong><a href="https://www.linkedin.com/in/utako">LinkedIn</a></strong>.</p>
+  					<p><strong>I'm available for hire</strong>. Take a look at my <strong><a href="assets/resume.pdf">resume</a></strong>.</p>
 					</div>
-				</div><!-- col-lg-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</div>	<!-- f -->
 
-	<!-- ========== CONTACT SECTION ========== -->
-	<section id="contact" name="contact"></section>
-	<div id="f">
+				</div><! --/col-lg-8-->
+		
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+	
+	<! -- ABOUT SEPARATOR -->
+	<div class="sep about" data-stellar-background-ratio="0.5"></div>
+	
+	<! -- PORTFOLIO SECTION -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
 		<div class="container">
 			<div class="row">
-				<h3>CONTACT ME</h3>
-				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				<h1>SOME PROJECTS</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port01.png"><img class="img-responsive" src="assets/img/portfolio/port01.png" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+                          <br>
+                          <h2>AirDnd</h2>
+                          <p>A web-app for connecting Dungeons and Dragons players with Dungeon Masters and vice versa. Originally just a pun based on <a href="http://airbnb.com">Airbnb</a>, now a web-app using Ruby on Rails, Javascript, Backbone.js, jQuery, HTML5 and CSS3.</p>
+                          <br>
+                          <a href="http://air-dnd.com">Find a Campaign</a><br>
+                          <a href="https://github.com/utako/air-dnd">Code</a> On Github
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
 				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p>San Francisco, CA</p>
-					<p>utakoueda[at]gmail[dot]com</p>
-					<p><button type="button" class="btn btn-warning">YEAH! CONTACT ME NOW!</button></p>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port02.png"><img class="img-responsive" src="assets/img/portfolio/port02.png" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+                          <br>
+                          <h2>Asteroids</h2>
+                          <p>I had some fun with Javascript, jQuery, Canvas and NoSQL to make this Asteroids game. The bullet-asteroid interactions are elastic collisions that are dependent on the the ratios of the bullet- and asteroid- radii, assuming that their densities are the same.</p>
+
+                          <a href="http://utako.github.io/asteroids">Play</a><br>
+                          <a href="https://github.com/utako/asteroids">Code</a> On Github
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port03.png"><img class="img-responsive" src="assets/img/portfolio/port03.png" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+                          <br>
+                          <h2>ravenLists</h2>
+                          <p>My first foray into Backbone.js. This is your standard Trello clone. Also used Ruby on Rails, Javascript, jQuery, HTML5 and CSS3.</p>
+                          <br>
+                          <br>
+                          <br>
+                          <a href="http://ravenlists.herokuapp.com">Try It Out</a><br>
+                          <a href="https://github.com/utako/ravenlists/">Code</a> On Github
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+		</div><! --/container -->
+		<div class="container">
+			<div class="row mt centered">
+
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/Portfoliowrap -->
+
+	<! -- PORTFOLIO SEPARATOR -->
+	<div class="sep portfolio" data-stellar-background-ratio="0.5"></div>
+	
+	
+	<! -- SERVICE SECTION -->
+	<section id="services" name="services"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>SKILLS</h1>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/ruby.png">
+          </div>
+          <div class='service row'>
+            <h3>Ruby</h3>
+          </div>
 				</div>
-			</div>
-		</div>
-	</div>
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/rails.png">
+          </div>
+          <div class='service row'>
+            <h3>Ruby on Rails</h3>
+          </div>
+				</div>
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/javascript.png">
+          </div>
+          <div class='service row'>
+            <h3>Javascript</h3>
+          </div>
+				</div>
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/backbone.png">
+          </div>
+          <div class='service row'>
+            <h3>Backbone.js</h3>
+          </div>
+				</div>
+			</div><! --/row -->
+			<div class="row mt">
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/html5.png">
+          </div>
+          <div class='service row'>
+            <h3>HTML5</h3>
+          </div>
+        </div>
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/css3.png">
+          </div>
+          <div class='service row'>
+            <h3>CSS3</h3>
+          </div>
+				</div>
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/jquery.jpg">
+          </div>
+          <div class='service row'>
+            <h3>jQuery</h3>
+          </div>
+				</div>
+				<div class="col-lg-3 service">
+          <div class='service row'>
+  					<img class='skill-img' src="assets/img/skills/bootstrap.png">
+          </div>
+          <div class='service row'>
+            <h3>Bootstrap</h3>
+          </div>
+				</div>
+			</div><! --/row -->
+			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
 
 	
-
+	<! -- SERVICE SECTION -->
+	<section id="contact" name="contact"></section>
+	<! -- CONTACT SEPARATOR -->
+	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
+	
+	<div id="contactwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Looking for a software engineer? Let's talk.</h1>
+          <h3>email:  utakoueda at gmail.com</h3>
+          <h4><a href="https://www.linkedin.com/in/utako">LinkedIn</a> | <a href="https://www.github.com/utako">GitHub</a></h4>
+				</div>
+			
+			</div><! --/row -->
+		</div><!-- /container -->
+	</div>
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="assets/js/classie.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/fancybox/jquery.fancybox.js"></script>    
 	<script src="assets/js/main.js"></script>
-</body>
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+	   </script>
+
+  </body>
 </html>
