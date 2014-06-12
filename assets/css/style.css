@@ -343,6 +343,10 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url(../img/about-sep.jpg);
 }
 
+#about-me {
+  margin-left: -1pc;
+}
+
 /* Portfolio Wrap Section */
 #portfoliowrap {
 	display: block;
